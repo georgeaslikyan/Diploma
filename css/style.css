@@ -120,15 +120,21 @@ body {
 .athlets {
 
   margin: 0 auto;
+  
+}
+
+.athlets-content{
   position: relative;
+  width: 100%;
+
 }
 
 
 .footballer {
   position: absolute;
   z-index: 1;
-  margin-left: 20%;
-  margin-top: -24px;
+  margin-left: 15%;
+  margin-top: -2%;
 }
 
 .athlets-preview {
@@ -466,7 +472,7 @@ margin: 0 auto;
 
 /*  ЗАГОЛОВКИ  */
 
-@media(min-width : 960px) and (max-width : 1587px){
+@media(min-width : 961px) and (max-width : 1587px){
   .title_text{
   font-size: 55px;
   line-height: 46px;
@@ -477,7 +483,7 @@ margin: 0 auto;
 }
 }
 
-@media(min-width: 960px) and (max-width: 1129px){
+@media(min-width: 961px) and (max-width: 1129px){
   .title_text{
   font-size: 43px;
   line-height: 35px;
@@ -487,7 +493,7 @@ margin: 0 auto;
 
 /* ВТОРОСТЕПЕННЫЕ  ЗАГОЛОВКИ  */
 
-@media(min-width: 960px) and (max-width: 1719px){
+@media(min-width: 961px) and (max-width: 1719px){
   .players-preview,
 .athlets-preview,
 .active-title,
@@ -495,12 +501,15 @@ margin: 0 auto;
 .work-title{
   font-size: 45px;
 }
+.card-number{
+  font-size: 16px;
+}
 }
 
 
 /*  ТЕКСТ ВНУТРИ БЛОКОВ  */
 
-@media(min-width: 960px) and (max-width: 1301px){
+@media(min-width: 961px) and (max-width: 1301px){
   .active-text,
   .contact-text,
   .work-text{
