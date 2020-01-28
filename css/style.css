@@ -70,7 +70,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-family: Open Sans, Arial, sans-serif;
-  font-size: 86px;
+  font-size: 90px;
   line-height: 70px;
   font-weight: bold;
 }
@@ -470,9 +470,9 @@ margin: 0 auto;
 
 /*  ЗАГОЛОВКИ  */
 
-@media(min-width : 961px) and (max-width : 1587px){
+@media(min-width : 961px) and (max-width : 1648px){
   .title_text{
-  font-size: 55px;
+  font-size: 60px;
   line-height: 46px;
   }
 
@@ -481,7 +481,7 @@ margin: 0 auto;
 }
 }
 
-@media(min-width: 961px) and (max-width: 1129px){
+@media(min-width: 961px) and (max-width: 1198px){
   .title_text{
   font-size: 43px;
   line-height: 35px;
@@ -502,6 +502,10 @@ margin: 0 auto;
 .card-number{
   font-size: 16px;
 }
+.athlets-header,
+.players-header{
+  font-size : 30px;
+}
 }
 
 
@@ -511,7 +515,17 @@ margin: 0 auto;
   .active-text,
   .contact-text,
   .work-text{
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
   }
+
+}
+
+@media(min-width: 961px) and (max-width: 1550px){
+  .players-text,
+  .athlets-text{
+    font-size: 16px;
+    line-height: 23px;
+  }
+
 }
