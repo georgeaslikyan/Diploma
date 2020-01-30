@@ -132,8 +132,9 @@ body {
 .footballer {
   position: absolute;
   z-index: 1;
-  margin-left: 15%;
-  margin-top: -2%;
+  max-width: 52vw;
+  right : 52%;
+  top : 2%;
 }
 
 .athlets-preview {
@@ -190,6 +191,10 @@ body {
 /* PLAYERS */
 .container-3 {
   margin: 0 auto;
+}
+.players {
+  margin: 0 auto;
+  position: relative;
 }
 
 .players-preview {
@@ -249,26 +254,26 @@ body {
   padding-right: 10px;
 }
 
-.players {
-  margin: 0 auto;
-  position: relative;
-}
-.basketballer {
-  position: absolute;
-  z-index: 1;
-  margin-left: 47%;
 
+.basketballer {
+position: absolute;
+left : calc(50% - 6vw);
+top: 1%;
+z-index: 1; 
+max-width: 55vw;
+}
 }
 
 
 /* CARD */
 .container-3{
   width: 100%;
-  max-width: 2048px;
-  margin: 0 auto;
-  padding: 0;
 }
 
+.cards{
+    max-width: 2048px;
+    margin: 0 auto;
+}
 
 .active-card,
 .contact-card,
@@ -283,6 +288,7 @@ font-weight: bold;
 line-height: 34px;
 font-family: Open Sans, Arial, sans-serif;
 }
+
 .contact-content,
 .active-content,
 .work-content {
